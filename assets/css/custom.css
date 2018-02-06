@@ -1,0 +1,52 @@
+
+
+
+
+button, table, div, ul, ol, p, section, div, input, a:not(.fa){
+  border-radius: 0 !important;
+}
+.sidebar, .sidebar-bg {
+   background: #d9e0e7;
+}
+
+.sidebar .nav>li.nav-profile {
+    background: #1d536b;
+}
+.btn.btn-success-sochic, .btn-success-sochic:hover {
+    color: #fff;    
+    background: #10709b;
+    border-color: #10709b;
+}
+.sidebar .nav > li.expand > a, .sidebar .nav > li > a, .sidebar .nav > li > a {
+    background: #1d536b;
+    color: #ffffff;
+} 
+
+.sidebar .nav > li.expand > a, .sidebar .nav > li > a:focus, .sidebar .nav > li > a:hover {
+    background: #0d6389;
+    color: #ffffff;
+}
+.sidebar .sub-menu {
+    background: #0d6389;
+    color: #ffffff;
+}
+
+
+
+.nav-tabs > a.active {
+  background-color: #0d6389 !important;
+}
+.table-sochic > thead{
+  background-color: #1d536b;
+}
+.table-sochic > thead > tr > th {
+  color: #ffffff;
+}
+
+
+
+
+
+/*.panel-sochic{
+    background-color: #f17c8d;
+}*/
