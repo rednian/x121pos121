@@ -23,7 +23,7 @@
                           <li role="presentation" class="active">
                             <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Product</a></li>
                           <li role="presentation">
-                            <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Services</a></li>
+<!--                            <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Services</a></li>-->
                             <li role="presentation">
                               <a href="#package-tab" aria-controls="package-tab" role="tab" data-toggle="tab">Summary Reports</a></li>
                         </ul>

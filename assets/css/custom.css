@@ -42,7 +42,9 @@ button, table, div, ul, ol, p, section, div, input, a:not(.fa){
 .table-sochic > thead > tr > th {
   color: #ffffff;
 }
-
+.nav-tabs{
+    background-color: transparent;
+}
 
 
 

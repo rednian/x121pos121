@@ -38,7 +38,7 @@
                              <tr class="headings">
                                <th>Barcode</th>
                                <th>Product</th>
-                               <th>Class</th>
+<!--                               <th>Class</th>-->
                                <th>Quantity</th>
                                <th>Price</th>
                                <th>Contact Number/ Email</th>
@@ -71,7 +71,7 @@
           columns:[
           {'data':'barcode'},
           {'data':'name'},
-          {'data':'class'},
+//          {'data':'class'},
           {'data':'qty'},
           {'data':'price'},
           {'data':'contact'},
@@ -102,7 +102,6 @@
               if ( column.qty < 1  ){
                  $(row).addClass('danger');
                }
-
 
             if ( column.qty > 0 && column.qty < 20  ){
                $(row).addClass('warning');

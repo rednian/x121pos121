@@ -99,22 +99,26 @@
       <section class="panel">
         <div class="panel-heading  panel-sochic">
           <div class="form-group">
-            <div class="col-sm-3">
-              <select name="filter" id="filter" class="form-control input-sm">
-                <option value="selected" selected disabled>filter search</option>
-                <option value="products">Products</option>
-                <option value="services">Services</option>
-                <option value="packages">Packages</option>
-              </select>
-            </div>
-            <div class="col-sm-9"></div>
-            <div class="input-group">
+            <div class="col-sm-2">
+              <em>Available Item <span class="badge badge-danger" id="prod-count"></span></em>
 
-              <input type="search" class="form-control input-sm" id="search">
-                  <span class="input-group-btn">
-                    <button id="btn-search" type="button" class="btn btn-success btn-sm"><span class="fa fa-search"></span>Search</button>
-                  </span>
+<!--              <select name="filter" id="filter" class="form-control input-sm">-->
+<!--                <option value="selected" selected disabled>filter search</option>-->
+<!--                <option value="products">Products</option>-->
+<!--                <option value="services">Services</option>-->
+<!--                <option value="packages">Packages</option>-->
+<!--              </select>-->
             </div>
+            <div class="col-sm-10">
+
+              <div class="input-group">
+                <input type="search" class="form-control input-sm" id="search">
+                  <span class="input-group-btn">
+                    <button id="btn-search" type="button" class="btn btn-success btn-sm"><span class="fa fa-search"></span> Search</button>
+                  </span>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -127,7 +131,7 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
               <li role="presentation" class="active">
-                <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Products<span class="badge badge-danger" id="prod-count"></span></a>
+                <a href="#home" aria-controls="home" role="tab" data-toggle="tab"></a>
               </li>
               <li role="presentation">
 <!--                <a href="#service-tab" aria-controls="service-tab" role="tab" data-toggle="tab">Services <span class="badge badge-danger" id="service-count"></span></a>-->
@@ -140,7 +144,7 @@
             <div class="tab-content">
               <div role="tabpanel" class="tab-pane active" id="home" style="padding: 1%; height:400px;overflow: auto "></div>
               <div role="tabpanel" class="tab-pane" id="service-tab" style="padding: 1%; height:400px;overflow: auto "></div>
-              <div role="tabpanel" class="tab-pane" id="package" style="padding: 1%; height:400px;overflow: auto "></div>
+              <div role="tabpanel" class="tab-pane" id="package" style="padding: 1%; height:400px; overflow-x: hidden; overflow-y: auto;"></div>
             </div>
 
           </div>
@@ -181,7 +185,7 @@
         <div class="panel-body">
           <section id="" style="width: 100%; border: 1px solid #dddddd;height: 500px; padding:3%; ">
 
-              <div style="height: 250px;overflow: auto">
+              <div style="height: 250px;overflow: hidden">
                 <table class="table" id="table-list-stock">
                   <thead style="border-bottom:1px solid #ddd">
                   <tr>
@@ -194,30 +198,30 @@
                   </tr>
                   </thead>
                 </table>
-                <table class="table" id="table-list-service" >
-                  <thead >
-                  <tr class="" style="border-bottom:1px solid #ddd">
-                    <td class="col-xs-3"></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="col-xs-3"></td>
-                    <td class="col-xs-1"></td>
-                  </tr>
-                  </thead>
-                </table>
-                <table class="table" id="table-list-package" >
-                  <thead >
-                  <tr class="" style="border-bottom:1px solid #ddd">
-                    <td class="col-xs-3"></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td class="col-xs-3"></td>
-                    <td class="col-xs-1"></td>
-                  </tr>
-                  </thead>
-                </table>
+<!--                <table class="table" id="table-list-service" >-->
+<!--                  <thead >-->
+<!--                  <tr class="" style="border-bottom:1px solid #ddd">-->
+<!--                    <td class="col-xs-3"></td>-->
+<!--                    <td></td>-->
+<!--                    <td></td>-->
+<!--                    <td></td>-->
+<!--                    <td class="col-xs-3"></td>-->
+<!--                    <td class="col-xs-1"></td>-->
+<!--                  </tr>-->
+<!--                  </thead>-->
+<!--                </table>-->
+<!--                <table class="table" id="table-list-package" >-->
+<!--                  <thead >-->
+<!--                  <tr class="" style="border-bottom:1px solid #ddd">-->
+<!--                    <td class="col-xs-3"></td>-->
+<!--                    <td></td>-->
+<!--                    <td></td>-->
+<!--                    <td></td>-->
+<!--                    <td class="col-xs-3"></td>-->
+<!--                    <td class="col-xs-1"></td>-->
+<!--                  </tr>-->
+<!--                  </thead>-->
+<!--                </table>-->
               </div>
 
               <div style="border-top: 1px solid #dddddd">
@@ -240,14 +244,24 @@
                     </h5>
                   </div>
                 </section>
-                <section class="row" style="border-top: 1px solid #dddddd;border-bottom: 1px solid #dddddd; margin-bottom: 1%">
-                  <div class="col-xs-3"><h5 class="dark-font" style="font-size:30px !important">Total</h5></div>
-                  <div class="col-xs-9"><h5 class="pull-right dark-font" style="margin-right: 15%; font-size:45px !important">&#8369;
-                      <strong class="total pull-right dark-font" style="font-size:45px !important"></strong></h5></div>
-                </section>
+<!--                <section class="row" style="border-top: 1px solid #dddddd;border-bottom: 1px solid #dddddd; margin-bottom: 1%">-->
+<!--                  <div class="col-xs-3">-->
+<!--                    <h5 class="dark-font" style="font-size:30px !important">Total</h5>-->
+<!--                  </div>-->
+<!--                  <div class="col-xs-9">-->
+<!---->
+<!--                  </div>-->
+<!--                </section>-->
                 <section class="form-group">
-                  <button id="btn-sale" data-toggle="modal" data-target=".bs-example-modal-lg" class="btn btn-lg btn-success btn-block">PAY</button>
+                  <button id="btn-sale" data-toggle="modal" data-target=".bs-example-modal-lg" class="btn btn-lg btn-success btn-block">
+                    <span class="pull-left">PAY</span>
+                    <h5 class="pull-right dark-font" style="margin-right: 15%; font-size:45px !important">
+                      <strong class="total pull-right dark-font" style="font-size:45px !important"></strong>
+                    </h5>
+
+                  </button>
                 </section>
+                <section class="clearfix"></section>
               </div>
 
             
@@ -390,14 +404,6 @@
 <script>
 
 
-
-
-
-
-
-
-
-
 $(document).ready(function () {
 
 
@@ -510,40 +516,50 @@ function get_total(){
 }
 
 function search() {
+
+
+  $('#search').on('keyup change', function () {
+
+    $.ajax({
+      url: '<?php echo base_url('sell/search_products'); ?>',
+      type: 'POST',
+      data: {search: $('#search').val()},
+      dataType: 'json',
+      success: function (data) {
+
+        if(data < 1){
+          $('#prod-count').html('0');
+        }
+
+        $('#home').html('');
+        $.each(data, function (index, data) {
+
+          $('#home').append(data.product);
+          $('#prod-count').html(data.count);
+        });
+        $("#home").LoadingOverlay("hide", true);
+
+      },
+      beforeSend: function () {
+        $("#home").LoadingOverlay("show", {
+          image: "",
+          fontawesome: "fa fa-circle-o-notch fa-spin spin"
+        });
+      }
+    });
+  });
+
+
+
   $('#filter').change(function () {
     var val = $(this).val();
 
     /*search products*/
-    if (val == 'products') {
+//    if (val == 'products') {
 
-      $('#search').on('keyup change', function () {
-       
-        $.ajax({
-          url: '<?php echo base_url('sell/search_products'); ?>',
-          type: 'POST',
-          data: {search: $('#search').val()},
-          dataType: 'json',
-          success: function (data) {
 
-            $('#home').html('');
-            $.each(data, function (index, data) {
 
-              $('#home').append(data.product);
-              $('#prod-count').html(data.count);
-            });
-            $("#home").LoadingOverlay("hide", true);
-
-          },
-          beforeSend: function () {
-            $("#home").LoadingOverlay("show", {
-              image: "",
-              fontawesome: "fa fa-circle-o-notch fa-spin spin"
-            });
-          }
-        });
-      });
-
-    }
+//    }
 
     if(val == 'services'){
       $('#search').on('keyup change', function () {
