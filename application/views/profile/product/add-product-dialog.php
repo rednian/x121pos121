@@ -64,43 +64,43 @@
                             </div>
                           </div>
 
-                          <div class="form-group">
-                            <label class="col-sm-2 col-xs-12 control-label">Type</label>
+<!--                          <div class="form-group">-->
+<!--                            <label class="col-sm-2 col-xs-12 control-label">Type</label>-->
+<!---->
+<!--                            <div class="col-sm-10 col-xs-12">-->
+<!--                              <div class="input-group">-->
+<!--                                <select class="form-control input-sm" name="type" id="product-type">-->
+<!--                                  <option value="" selected disabled>-- Choose Type --</option>-->
+<!--                                </select>-->
+<!--                                  <span class="input-group-btn">-->
+<!--                                    <button class="btn btn-success btn-sm" id="btn-type" type="button" data-toggle="modal" data-target="#modal-product-type">-->
+<!--                                      <span class="fa fa-plus"></span>-->
+<!--                                    </button>-->
+<!--                                  </span>-->
+<!--                              </div>-->
+<!--                            </div>-->
+<!--                          </div>-->
 
-                            <div class="col-sm-10 col-xs-12">
-                              <div class="input-group">
-                                <select class="form-control input-sm" name="type" id="product-type">
-                                  <option value="" selected disabled>-- Choose Type --</option>
-                                </select>
-                                  <span class="input-group-btn">
-                                    <button class="btn btn-success btn-sm" id="btn-type" type="button" data-toggle="modal" data-target="#modal-product-type">
-                                      <span class="fa fa-plus"></span>
-                                    </button>
-                                  </span>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <label class="col-sm-2 col-xs-12 control-label">Class</label>
-
-                            <div class="col-sm-10 col-xs-12">
-                              <div>
-                                <select class="form-control input-sm flat" name="prod_class">
-                                  <option value="" selected disabled>-- Choose Class --</option>  
-                                  <option value="Gold">Gold</option>  
-                                  <option value="Silver">Silver</option>  
-                                  <option value="Special">Special</option>  
-                                </select>
-                                  <!-- <span class="input-group-btn">
-                                    <button id="btn-class" class="btn btn-success btn-sm" type="button" 
-                                    data-toggle="modal" data-target="#modal-product-class">
-                                      <span class="fa fa-plus"></span>
-                                    </button>
-                                  </span> -->
-                              </div>
-                            </div>
-                          </div>
+<!--                          <div class="form-group">-->
+<!--                            <label class="col-sm-2 col-xs-12 control-label">Class</label>-->
+<!---->
+<!--                            <div class="col-sm-10 col-xs-12">-->
+<!--                              <div>-->
+<!--                                <select class="form-control input-sm flat" name="prod_class">-->
+<!--                                  <option value="" selected disabled>-- Choose Class --</option>  -->
+<!--                                  <option value="Gold">Gold</option>  -->
+<!--                                  <option value="Silver">Silver</option>  -->
+<!--                                  <option value="Special">Special</option>  -->
+<!--                                </select>-->
+<!--                                  <!-- <span class="input-group-btn">-->
+<!--                                    <button id="btn-class" class="btn btn-success btn-sm" type="button" -->
+<!--                                    data-toggle="modal" data-target="#modal-product-class">-->
+<!--                                      <span class="fa fa-plus"></span>-->
+<!--                                    </button>-->
+<!--                                  </span> -->
+<!--                              </div>-->
+<!--                            </div>-->
+<!--                          </div>-->
 
                           <div class="form-group">
                             <label class="col-sm-2 col-xs-12 control-label">Weight</label>
@@ -329,7 +329,7 @@
 <script>
 $(document).ready(function () {
 
-    
+
 
 
 

@@ -65,7 +65,7 @@
   </div>
     <section class="panel panel-default" style="border: 1px #ddd solid">
       <div class="panel-heading" >
-        <h5 style="text-transform: capitalize;" class="text-center">total sales : product, services &amp; packages</h5>
+        <h5 style="text-transform: capitalize;" class="text-center">total sales : product</h5>
       </div>
       <div class="panel-body">
         <table id="package-report" class="table table-bordered table-sochic" style="margin-top: 5%;">
@@ -102,13 +102,8 @@
       $('#package').val('');
     });
 
-    
-
       package_sales('', '');
 
-  
-
- 
 
         $('#package').daterangepicker({
           "ranges": {

@@ -5,7 +5,7 @@
         <ul class="nav">
           <li class="nav-profile">
             <div class="image">
-              <a href="javascript:;"><img style="min-height:50px" src="<?php echo base_url('uploads/'.$user_info['image']) ?>" alt="" /></a>
+              <a href="javascript:;"><img  class="img-circle img-thumbnail" src="<?php echo base_url('uploads/'.$user_info['image']) ?>" alt="" /></a>
             </div>
             <div class="info">
           <?php echo ucfirst($user_info['fname']).' '.ucfirst($user_info['lastname'])?>

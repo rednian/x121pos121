@@ -22,7 +22,7 @@
     public function get_consumable_id($name = false){
       $this->toJoin = array(
         'products' => 'barcode' ,
-        'product_type' => 'products' ,
+//        'product_type' => 'products' ,
         // 'product_class' => 'products' ,
         'weight' => 'products' ,
         'size' => 'products' ,
@@ -69,11 +69,11 @@
         return $this->get();
       }
 
-       public function add_by_barcode($barcode = FALSE) {
+    public function add_by_barcode($barcode = FALSE) {
       $this->toJoin = array(
         'products' => 'barcode' ,
         'stock_in' => 'barcode' ,
-        'product_type' => 'products' ,
+//        'product_type' => 'products' ,
         // 'product_class' => 'products' ,
         'weight' => 'products' ,
         'size' => 'products' ,
@@ -92,7 +92,7 @@
     public function get_details($id=false){
       $this->toJoin = array(
         'products' => 'barcode' ,
-        'product_type' => 'products' ,
+//        'product_type' => 'products' ,
         // 'product_class' => 'products' ,
         'weight' => 'products' ,
         'size' => 'products' ,
@@ -125,7 +125,7 @@
     public function get_low_product() {
       $this->toJoin = array(
         'products' => 'barcode' ,
-        'product_type' => 'products' ,
+//        'product_type' => 'products' ,
         // 'product_class' => 'products' ,
         'weight' => 'products' ,
         'size' => 'products' ,
@@ -143,7 +143,7 @@
     public function get_inactive() {
       $this->toJoin = array(
         'products' => 'barcode' ,
-        'product_type' => 'products' ,
+//        'product_type' => 'products' ,
         // 'product_class' => 'products' ,
         'weight' => 'products' ,
         'size' => 'products' ,
@@ -161,7 +161,7 @@
     public function get_all() {
       $this->toJoin = array(
         'products' => 'barcode' ,
-        'product_type' => 'products' ,
+//        'product_type' => 'products' ,
         // 'product_class' => 'products' ,
         'weight' => 'products' ,
         'size' => 'products' ,
@@ -177,7 +177,7 @@
     public function get_on_hand() {
       $this->toJoin = array(
         'products' => 'barcode' ,
-        'product_type' => 'products' ,
+//        'product_type' => 'products' ,
         // 'product_class' => 'products' ,
         'weight' => 'products' ,
         'size' => 'products' ,
@@ -197,7 +197,7 @@
       $user = $this->session->userdata('logged_in');
       $this->toJoin = array(
         'products' => 'barcode' ,
-        'product_type' => 'products' ,
+//        'product_type' => 'products' ,
         // 'product_class' => 'products' ,
         'weight' => 'products' ,
         'size' => 'products' ,
@@ -259,7 +259,7 @@
       $this->toJoin = array(
         'products' => 'barcode' ,
         'stock_in' => 'barcode' ,
-        'product_type' => 'products' ,
+//        'product_type' => 'products' ,
         // 'product_class' => 'products' ,
         'weight' => 'products' ,
         'size' => 'products' ,
@@ -274,7 +274,7 @@
       $this->toJoin = array(
         'products' => 'barcode' ,
         'price' => 'barcode' ,
-        'product_type' => 'products' ,
+//        'product_type' => 'products' ,
         // 'product_class' => 'products' ,
         'size' => 'products' ,
         'weight' => 'products' ,
@@ -288,7 +288,7 @@
       $this->toJoin = array(
         'products' => 'barcode' ,
         'price' => 'barcode' ,
-        'product_type' => 'products' ,
+//        'product_type' => 'products' ,
         // 'product_class' => 'products' ,
         'size' => 'products' ,
         'weight' => 'products' ,
